@@ -1,0 +1,110 @@
+*{
+    box-sizing: 0;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: beige;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh
+}
+
+button{
+    background: chartreuse;
+    color: red;
+    padding: 15px 25px;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.modal-container{
+    background: rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+/*    we hide at the container*/
+    opacity: 0;
+    pointer-events: none;
+/*    pointer events enable clickHand show for js operations*/
+}
+
+.modal-container.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+.modal_containerId.show {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.modal{
+    background: #fff;
+    width: 550px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.modal-header{
+    display: flex;
+    background: #45b39d;
+    color: #fff;
+    padding: 20px 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header i{
+    cursor: pointer;
+}
+
+.modal-header #close_btn {
+    background: transparent;
+    color: darkgreen;
+
+}
+
+.modal-body img{
+    border-radius: 50px;
+    display: block;
+    width: 20%;
+    margin: 10px auto;
+}
+.modal-body{
+    padding: 20px 15px;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+.modal-footer{
+    border-top: 1px solid #ddd;
+    padding: 16px 15px;
+}
+
+.modal-footer .btn-close{
+    display: block;
+    margin-left: auto;
+    background:transparent;
+    border-radius: 6px;
+    color: darkgreen;
+    outline: 1px solid #45b39d;
+    cursor: pointer;
+    padding: 10px 30px;
+    transition: all 0.3s;
+}
+
+.modal-footer button  .btn-close:hover {
+    background: #45b39d;
+    color: #fff;
+    transition: 0.3s;
+}

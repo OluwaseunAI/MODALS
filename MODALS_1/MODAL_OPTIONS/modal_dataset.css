@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  margin: 15px;
+  padding: 15px;
+  display: flex;
+  /* justify-content: center; */
+    /* background-color: rgb(219, 249, 239); */
+}
+
+.btn{
+  cursor: progress;
+}
+
+.modal-btn{
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 10px;
+  z-index: 2;
+  position: fixed;
+  display: flex;
+}
+
+.close-btn{
+  font-size: 15px;
+  /* color: #000; */
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.modal-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+}
+
+.modal{
+  background-color: #ffff;
+  width: 30%;
+  height: fit-content;
+  top: -50%;
+  left: 50%;
+  border: 1px solid lightgray;
+  transform: translate(-50%, -50%);
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  transition: top 0.8s ease-in-out;
+  z-index:2;
+  position: fixed;
+}
+
+.modal.active{
+  top: 20%;
+}
+
+#overlay{
+  position: absolute;
+  display: none;
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+background-color: rgba(94, 94, 94, 0.1);
+  /* z-index: 1; */
+}
+
+#overlay.active{
+  display: block;
+}
+
+.btn-classes{
+  display: flex;
+}

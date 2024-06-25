@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Modal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button type="button" id="open_modal">Click Here</button>
+
+<!--    //create modal content-->
+<!--    Starts with container_ modal_modalHeader_modalBody_modalFooter-->
+    <div class="modal-container" id="modal_containerId">
+        <div class="modal">
+            <div class="modal-header">
+                <h2>User Profile Data</h2>
+<!--                <i class="fa fa-close"></i>-->
+                <button id="close_btn">&times;</button>
+            </div>
+            <div class="modal-body">
+<!--                <img src="../../../../Pictures/logo/Ymzo.png" alt="Ymzo Inc logo">-->
+                <img src="Ymzo1.png" alt="Ymzo Inc logo">
+                <p>
+                    Git doesn’t copy-paste the whole codebase when branching and tagging, but stores each commit as a code iteration, in an organized structure that resembles a tree. This allows it to have a much smarter merging algorithm,
+                </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-close" id="close_modal">Close</button>
+            </div>
+        </div>
+    </div>
+
+<!--    Modal Close-->
+
+<script src="modal.js"></script>
+</body>
+</html>

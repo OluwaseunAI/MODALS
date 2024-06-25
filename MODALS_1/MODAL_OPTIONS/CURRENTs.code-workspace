@@ -1,0 +1,40 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Documents/My First Websites/VUE"
+		},
+		{
+			"path": "../../../../../Documents/FRONTEND"
+		},
+		{
+			"path": "../../../../../Documents/My First Websites/AUTHENTICATION FOLDER"
+		},
+		{
+			"path": "../../../../../Documents/SKYSCANNER"
+		},
+		{
+			"path": "../../../../../React"
+		},
+		{
+			"path": "../../../../../Documents/ANIMATION/KEYFRAMES"
+		},
+		{
+			"path": "../../../../../Documents/TAILWIND_INTRO"
+		},
+		{
+			"path": "../../../../../Documents/My First Websites/Project6_ResponsiveNavbar"
+		},
+		{
+			"path": "../../../../../Documents/My First Websites/Project8_Navbar"
+		},
+		{
+			"path": "../../../../../Documents/FRONTEND/Random-Color-Generator"
+		},
+		{
+			"path": "../../../../../Documents/My First Websites/SIMPLE-APPS/Multiplication-App"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Multiplication-App"
+	}
+}

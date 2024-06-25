@@ -1,0 +1,149 @@
+/*.btn{*/
+/*    padding: ;*/
+/*    border: ;*/
+/*    cursor: ;*/
+/*    outline: ;*/
+/*}*/
+
+/*.btn:active{*/
+/*    transform: scale();*/
+/*}*/
+
+/*.close_btn{*/
+/*    background: ;*/
+/*    color: ;*/
+/*}*/
+
+/*.modal{*/
+/*    width: ;*/
+/*    position: ;*/
+/*    top: ;*/
+/*    left: ;*/
+/*    transform: ;*/
+/*    border: 1px solid #ccc;*/
+/*    background: ;*/
+/*    z-index: ;*/
+/*}*/
+
+/*.modal.active{*/
+/*    top: ;*/
+
+/*}*/
+
+/*.modal-header1{*/
+/*    display: ;*/
+/*    padding: ;*/
+/*    justify-content: ;*/
+/*    background-color: ;*/
+/*    align-items: ;*/
+
+/*}*/
+
+/*.modal-body{*/
+/*    padding: ;*/
+
+/*}*/
+
+/*#overlay{*/
+/*    position: ;*/
+/*    left: ;*/
+/*    top: ;*/
+/*    width: ;*/
+/*    height: ;*/
+/*    background-color: rgba();*/
+/*    display: none;*/
+/*}*/
+
+/*#overlay.active{*/
+/*    display:*/
+/*}*/
+
+.btn{
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 3px;
+
+}
+
+.btn:active{
+    transform: scale(85%);
+}
+
+#close_btn{
+    background: #ccc;
+    color: black;
+    border: none;
+    outline: none;
+
+}.modal-footer{
+
+
+}
+.btn-close:hover{
+    transform: scale(0.9);
+    background-color: green;
+    color:#fff;
+}
+
+.modal1{
+    width: 450px;
+    position: fixed;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    background: darkolivegreen;
+    z-index: 2;
+}
+
+.modal1.active{
+    top: 15%;
+}
+
+.modal-header1{
+    display: flex;
+    padding: 5px 7px;
+    justify-content: space-between;
+    background-color: #45b39d;
+    align-items: center;
+
+}
+
+.modal-body1{
+    padding: 2px 10px;
+    align-items: center;
+    justify-content: center;
+    /*display: inline-block;*/
+    /*line-height: 2em;*/
+}
+
+.modal-body1 img{
+    display: block;
+    margin: 5px auto;
+    width:20%;
+    height:20%;
+    border-radius: 50%;
+}
+
+.modal-footer{
+    border-radius: 3px;
+    padding: 5px 5px;
+    left: 80%;
+    align-items: right;
+}
+
+.overlay{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(20, 20, 20, 0.2);
+    display: none;
+}
+
+.overlay.active{
+    display: block;
+}
